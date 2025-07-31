@@ -5,10 +5,12 @@ import { AdvantagesSection } from "./components/AdvantagesSection";
 import { PricingSection } from "./components/PricingSection";
 import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
+import './styles/globals.css';
+import './App.css'
 
 export default function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen ">
       <Header />
       <HeroSection />
       <WhyChooseUsSection />

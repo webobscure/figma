@@ -23,7 +23,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.min-h-screen {
+}
 .App-link {
   color: #61dafb;
 }
